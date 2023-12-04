@@ -1,0 +1,370 @@
+
+/*============================================*/
+
+/*CUSTOM SCROLLBAR*/
+::-webkit-scrollbar{
+width: 10px;
+}
+::-webkit-scrollbar-track{
+background: rgb(31, 60, 66);
+}
+::-webkit-scrollbar-thumb{
+background: rgb(66, 60, 31);
+}
+::-webkit-scrollbar-thumb:hover{
+background: rgb(60, 31, 66);
+}
+/*============================================*/
+@media only screen and (min-width: 150px) and (max-width: 640px){
+}
+
+/*SET AN ANIMATED BACKGROUND TO THE WHOLE SCREEN*/
+html{
+background-image: url(../background/back1.gif);
+background-size: 100% 100%;
+background-repeat: no-repeat;
+overflow-y: scroll;
+background-attachment: fixed;
+
+}
+
+body {
+	width: 100%;
+	height: 100%;
+}
+/*============================================*/
+
+/*FROM WEBPAGE TITLE TO FOOTER INSERT IT TO A RECTANGLE SHAPE*/
+.container{ 
+width: 90% auto ;
+height: 100% auto;
+margin: 15px;
+
+}
+/*============================================*/
+
+/*APPLY FONT FAMILY TO ALL HEADINGS*/
+.heading, #heading{
+font-family: Comic Sans MS;
+color: white;
+}
+/*============================================*/
+#heading{
+	float: left;
+}
+.logo, .contact{ /*FIXED LOGO AND CONTACT HEADING (IT MIGHT ALSO APPLY TO OTHER HEADINGS)*/
+padding-top: 15px;
+padding-bottom: 15px;
+width: 50%;
+height: 75px;
+background-size: 659px 105px;
+}
+
+/*WEBPAGE TITLE SECTION*/
+.logo { /*SET AN IMAGE TO A LOGO DIVISION*/
+float: left;
+background-image: url(../background/back.gif);
+}
+#piclogo{ /*IMAGE OF A TEMPORARY LOGO*/
+float: left;
+margin-left: 2%;
+margin-top: 6px;
+height: 64px;
+width: 64px;
+border-radius: 50%;
+}
+#tab{ /*DESIGN THE H1 NAMED "WEBPAGE TITLE"*/
+float: left;
+margin-left: 20%;
+margin-top: 2%;
+}
+
+#tab:hover{ /*DESIGN THE H1 NAMED "WEBPAGE TITLE"*/
+color: pink;
+}
+
+
+/*CONTACT INFO SECTION*/
+.contact{ /*SET AN IMAGE TO A CONTACT DIVISION*/
+float: right;
+background-image: url(../background/back.gif);
+}
+#tab2{ /*DESIGN THE H1 NAMED "CONTACT INFO"*/
+text-align: center;
+margin-top: 1px;
+}
+#picico{ /*SMARTPHONE, EMAIL & FB ICON*/
+height: 20px;
+width: 20px;
+margin-top: -4%;
+float: right;
+margin-right: 2%;
+}
+#IDfntsze{ /*RESIZE THE TEXT OF A PARAGRAPH, SPAN etc.*/
+float: right;
+margin-top: -3.5%;
+margin-right: 6%;
+color: purple;
+}
+u#IDfntsze:hover{
+color: pink;
+}
+/*============================================*/
+
+/*NAVIGATION SECTION*/
+.navigation{
+margin: auto;
+float: left;
+width: 100%;
+height: inherit;
+background-color: pink;
+text-align: center;
+font-size: 110%;
+margin-left: none;
+}
+ul{ /*UN-ORDERED LIST*/
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+}
+li{ /*ORDERED LIST*/
+margin: 0 auto;
+padding: 0 35px;
+display: inline-block;
+position: relative;
+height: inherit;
+}
+.hashtag{ /*ANCHOR*/
+text-decoration: none;
+display: block;
+text-align: center;
+padding: inherit;
+transition-duration: 1s;
+color: white;
+}
+.hashtag:hover{ /*SET A DELAYED COLOR TRANSFORMATION WHEN HOVERED*/
+background-color: purple;
+transition-duration: 1s;
+}
+/*============================================*/
+.midbox13{
+	width: 1190px;
+}
+.midbox14 {
+		width: 1192px;
+	margin-left: 0px;
+}
+.midbox15{
+	width: 1190px;
+	margin-left: 15px;
+}
+.mb1, .mb2, .mb3{ /*ARRANGED IMAGES*/
+float: left;
+}
+#mb1, #mb2, #mb3{ /*WIDTH AND HEIGHT OF AN IMAGE ON A MIDBOX*/
+width: 100%;
+height: inherit;
+}
+.mb1, .mb3{ /*IMAGE 1 & IMAGE 3'S CONFIG*/
+width: 30%;
+height: 300px;
+display: inline-block;
+}
+.mb2{ /*IMAGE 2'S CONFIG*/
+width: 40.50%;
+height: 300px;
+display: inline-block;
+margin-left: -0.50%;
+}
+/*============================================*/
+
+.sdebr{
+margin-top: -1px;
+float: left;
+width: 40%;
+height: 300px;
+background-color: orange;
+text-align: center;
+}
+.contentcon{
+margin-top: -1px;
+float: right;
+width: 60%;
+height: 300px;
+background-color: violet;
+text-align: center;
+}
+.ABOUTUS{
+float: left;
+width: 100%;
+height: 300px;
+background-color: transparent;
+}
+/*============================================*/
+
+.footer{
+float: left;
+width: 100%;
+height: 125px;
+background-image: url(../background/back.gif);
+text-align: center;
+margin-bottom: 1%;
+}
+#picico2{ /*2ND SMARTPHONE, EMAIL & FB ICON*/
+height: 24px;
+width: 24px;
+transition-duration: 0.5s;
+margin-top: -15%;
+}
+.SUL, .TUL{/*2ND & 3RD UN-ORDERED LIST*/
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+}
+.SLI{ /*2ND ORDERED LIST*/
+margin-top: 2%;
+padding: 0 17px;
+display: inline-block;
+position: relative;
+height: inherit;
+}
+.TLI{ /*ORDERED LIST*/
+padding: 0 7px;
+display: inline-block;
+position: relative;
+height: inherit;
+}
+.hashtag2{ /*ANCHOR*/
+text-decoration: none;
+display: block;
+text-align: center;
+padding: inherit;
+transition-duration: 1s;
+color: blueviolet;
+}
+.hashtag2:hover{ /*SET A DELAYED COLOR TRANSFORMATION WHEN HOVERED*/
+background-color: deeppink;
+transition-duration: 1s;
+}
+.loc {
+	margin-left: 300px;
+	font-style: pink;
+}
+
+#heading123 {
+	margin-left: 300px;
+
+}
+
+h1{
+	font-size: 100px;
+	margin-bottom: 100px;
+}
+
+iframe {
+    width: 100%; /* Adjust the width as needed */
+    height: 300px; /* Maintain aspect ratio */
+}
+h5 {
+	font-display: pink;
+}
+#story #story1 {
+	background-image: url(../background/back.gif);
+}
+/*============================================*/
+.footer1{
+float: left;
+width: 100%;
+height: 125px;
+background-image: url(../background/back.gif);
+text-align: center;
+margin-bottom: 1%;
+}
+.hashtag{ /*ANCHOR*/
+text-decoration: none;
+display: block;
+text-align: center;
+padding: inherit;
+transition-duration: 1s;
+color: blueviolet;
+}
+.hashtag:hover{ /*SET A DELAYED COLOR TRANSFORMATION WHEN HOVERED*/
+background-color: deeppink;
+transition-duration: 1s;
+}
+
+.footer2{
+float: left;
+width: 100%;
+height: 125px;
+background-color: transparent;
+text-align: center;
+margin-bottom: 1%;
+}
+
+#tab {
+	font-size: 30px;
+	font-family: sans-serif;
+}
+
+/*============================================*/
+.cart{
+	background-image: url(../images/paper.jpg);
+}
+
+.item img{
+	margin-left: 500px;
+}
+.item  h3{
+	margin-left: 600px;
+}
+.item button {
+	margin-left: 600px;
+}
+#slider {
+width: 1190px;
+margin-left: 2px;
+}
+#sliderFrame{
+
+}
+
+
+/*============================================*/
+.row.input-container {
+    color: pink;
+}
+
+.styled-input input,
+.styled-input label {
+    color: pink;
+}
+
+.rows{
+	color: black;
+}
+
+.loc{
+    margin-top: -140px;
+margin-left: -7px;
+width: 1200px;
+}
+.heading111{
+	float: center;
+}
+/*============================================*/
+@media only screen and (min-width: 768px) {
+	body{
+		width: 100%;
+		height: 100%;
+
+	}
+	.container{ 
+		width: 90% auto ;
+		height: 100% auto;
+		margin: 15px;
+	}
+
+}
